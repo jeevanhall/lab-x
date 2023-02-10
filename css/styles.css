@@ -1,0 +1,93 @@
+﻿/* setting font to Arial: a sans serif font */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* setting h1 to 5 times the font size of the body, italic, small caps and aligned in the center */
+h1 {
+    font-size: 5em;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+
+}
+
+/* setting h2 to 2 times the font size of the body*/
+h2 {
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+/* setting h3 to 1.5 times the font size of the body */
+h3 {
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav li {
+    list-style-type: none;
+}
+    
+    /* we want a responsive design hence the resizable images */ 
+
+header img {
+    width: 960px;
+}
+
+article img {
+    width: 400px;
+}
+
+nav ul {
+    padding: 0;
+    text-align:center;
+}
+
+nav li {
+    list-style-type: none;
+
+    display: inline-block;
+    padding: 10px;
+}
+
+.experience input, .experience textarea {
+    width: 100%;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;   
+   }
+
+   .activity img {
+    margin-right: 10px;
+}
+    
+.activity figure {
+    margin-top: 0;
+}
+    
+.activity ul {
+    padding: 0;
+}
+
+.activity li {
+    list-style-position: inside;
+}
+
+.center {
+    max-width: 960px;
+    margin: 0 auto;
+}
